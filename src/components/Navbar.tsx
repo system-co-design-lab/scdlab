@@ -1,18 +1,19 @@
 import { useState, useEffect } from 'react';
+import logo from './assets/logo.jpeg';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, FlaskConical } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const navItems = [
   { name: 'Home', path: '/' },
-  { name: 'People', path: '/people' },
+  { name: 'Princiopal Investigator', path: '/people' },
   { name: 'Publications', path: '/publications' },
    { name: 'Courses', path: '/courses' },
   { name: 'Research', path: '/research' },
   { name: 'Projects', path: '/projects' },
-  { name: 'Achievements', path: '/achievements' },
-  { name: 'Gallery', path: '/gallery' },
-  { name: 'Schedule', path: '/schedule' },
+  { name: 'Members', path: '/Members' },
+  // { name: 'Gallery', path: '/gallery' },
+  // { name: 'Schedule', path: '/schedule' },
 ];
 
 const Navbar = () => {
@@ -42,13 +43,13 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3 group">
-            <div className="w-10 h-10 rounded-lg bg-accent flex items-center justify-center transition-transform duration-300 group-hover:scale-110">
-              <FlaskConical className="w-5 h-5 text-accent-foreground" />
+            <div className="w-10 h-10 rounded-lg bg-accent flex items-center justify-center transition-transform duration-300 group-hover:scale-110 overflow-hidden">
+              <img src={logo} alt="Logo" className="w-full h-full object-contain" />
             </div>
             <div className="hidden sm:block">
-              <span className="text-hero-foreground font-serif text-xl font-bold">SAL</span>
+              <span className="text-hero-foreground font-serif text-xl font-bold">SCD</span>
               <span className="text-hero-foreground/60 text-sm block -mt-1">
-                Scalable Architecture Lab
+                System Co-Design Lab
               </span>
             </div>
           </Link>

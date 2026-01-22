@@ -8,7 +8,7 @@ import professorImg from '../components/assets/professor.jpg';
 
 const professor = {
   name: 'Aman Sinha (辛艾曼), PhD ',
-  title: 'Principle Investigator',
+  title: 'Principal Investigator',
   department: '',
   image: professorImg,
   email: '',
