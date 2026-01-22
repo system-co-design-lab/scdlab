@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-   "homepage": "https://harshp0130.github.io/AmanSinhaClient",
+  "homepage": "https://harshp0130.github.io/AmanSinhaClient",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

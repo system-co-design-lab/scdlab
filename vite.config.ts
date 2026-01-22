@@ -4,7 +4,7 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: "/AmanSinhaClient/", // 🔴 MUST be your repo name
+  base: "/scdlab/", // GitHub Pages repo name
 
   server: {
     host: "::",
