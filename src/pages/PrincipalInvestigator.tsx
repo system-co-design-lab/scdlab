@@ -119,9 +119,9 @@ const People = () => {
               <h4 className="font-semibold text-2xl text-foreground">Professional Experience</h4>
             </div>
             <ul className="space-y-3 text-base text-muted-foreground pl-12">
-              <li className="font-medium">Associate Professor, SKKU, 2020–Present</li>
-              <li className="font-medium">Senior Software Engineer, Microsoft Azure, 2016–2020</li>
-              <li className="font-medium">Senior Engineer, Samsung Electronics, 2013–2016</li>
+              <li className="font-medium">Assistant Professor, NSYSU, January, 2026 – Present</li>
+              <li className="font-medium">Postdoctoral Research Fellow, NYCU, December, 2024 – January, 2026</li>
+              <li className="font-medium">Project Engineer, NYCU, July, 2024 – November, 2024</li>
             </ul>
           </div>
           {/* Honors */}
