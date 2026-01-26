@@ -11,7 +11,7 @@ const professor = {
   title: 'Principal Investigator',
   department: '',
   image: professorImg,
-  email: '',
+  email: 'amansinha.sw@gmail.com',
   // website: '',
   bio: 'Aman Sinha is an Assistant Professor of the Institute of Integrated Circuit Design (IICD) at National Sun Yat-Sen University (NSYSU), Taiwan.',
   bio2: 'His research interests include diverse aspects of Hardware-Software System Co-Design, including Algorithmic Optimizations, Memory-Centric Computing, Reconfigurable Systems, RISC-V SoCs, Domain-Specific Accelerators, and Distributed Computing. His current research focuses on accelerating key bioinformatics and drug discovery applications to enable affordable and real-time Personalized Medicine.',
